@@ -85,7 +85,7 @@ const displayPokemon = (pokemon) => {
 
 // Función para crear un gráfico utilizando Chart.js
 const createChart = (canvasId, stats) => {
-    // Obtenemos el contexto del canvas por su ID.
+    // Obtenemos el contexto del canvas por su ID..
     const ctx = document.getElementById(canvasId).getContext('2d');
     // Creamos un nuevo gráfico de tipo pie.
     new Chart(ctx, {
